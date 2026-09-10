@@ -1,4 +1,4 @@
-# OpsChugex
+# OpsChugex Technologies Inc.
 
 **Technology Engineering**
 
