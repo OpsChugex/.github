@@ -21,6 +21,17 @@ We work across cloud infrastructure, DevOps, platform engineering, Kubernetes, s
 
 AWS • Azure • Kubernetes • Terraform • Docker • Jenkins • Argo CD • Ansible • Prometheus • Grafana • GitHub
 
+## Public Engineering References
+
+- [Terraform AWS Platform](https://github.com/OpsChugex/terraform-aws-platform) — reusable cloud foundation and infrastructure-as-code.
+- [Kubernetes Platform](https://github.com/OpsChugex/kubernetes-platform) — platform patterns for workloads, policy and operations.
+- [Secure CI/CD Reference](https://github.com/OpsChugex/secure-cicd-reference) — build, test, scan, deploy and verification flow.
+- [Observability Reference](https://github.com/OpsChugex/observability-reference) — metrics, logs, alerts and service objectives.
+- [Operational Evidence Demo](https://github.com/OpsChugex/operational-evidence-demo) — a guided incident-to-proof workflow.
+- [Live Service Evidence](https://github.com/OpsChugex/live-service-evidence) — public checks for OpsChugex-owned service health.
+
+Each repository states whether it is a reference, demonstration, or verified public-service check.
+
 ## Learn More
 
 Website: https://opschugex.com
