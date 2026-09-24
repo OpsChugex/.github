@@ -1,48 +1,55 @@
-# OpsChugex Technologies Inc.
+﻿<p align="center">
+  <img src="./assets/opschugex-hero.svg" width="100%" alt="OpsChugex Technologies Inc. technology engineering" />
+</p>
 
-**Technology Engineering**
+<p align="center">
+  <a href="https://opschugex.com"><img src="https://img.shields.io/badge/Website-opschugex.com-0B5CAD?style=for-the-badge&logo=googlechrome&logoColor=white" alt="OpsChugex website" /></a>
+  <a href="https://www.linkedin.com/company/opschugex"><img src="https://img.shields.io/badge/LinkedIn-OpsChugex-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="OpsChugex LinkedIn" /></a>
+  <a href="mailto:hello@opschugex.com"><img src="https://img.shields.io/badge/Contact-hello%40opschugex.com-334155?style=for-the-badge&logo=gmail&logoColor=white" alt="Email OpsChugex" /></a>
+</p>
 
-OpsChugex is a technology engineering company focused on designing, building, modernizing and operating secure, reliable technology systems.
+## Technology engineering
 
-We work across cloud infrastructure, DevOps, platform engineering, Kubernetes, software and API engineering, observability, reliability and managed engineering.
+OpsChugex Technologies Inc. designs, builds, modernizes and operates technology systems across cloud infrastructure, DevOps, platform engineering, Kubernetes, software and APIs, security, observability and reliability.
 
-## Engineering Areas
+Our engineering model connects **architecture, automation, delivery, operations and evidence**. Public repositories are intentionally labeled so a reference implementation, controlled demonstration and verified live-service check are not presented as the same thing.
 
-- Cloud Infrastructure & Architecture
-- DevOps & CI/CD
-- Kubernetes & Container Platforms
-- Infrastructure as Code
-- Platform Engineering
-- Software & API Engineering
-- Observability & Reliability
-- Production & Managed Engineering
+<p align="center"><img src="./assets/engineering-system.svg" width="100%" alt="OpsChugex engineering system from architecture to operations and evidence" /></p>
 
-## Technology Ecosystem
+## Public engineering evidence
 
-AWS • Azure • Kubernetes • Terraform • Docker • Jenkins • Argo CD • Ansible • Prometheus • Grafana • GitHub
+<p align="center"><img src="./assets/public-evidence.svg" width="100%" alt="OpsChugex public engineering evidence repositories" /></p>
 
-## Public Engineering References
+### Architecture & platform references
 
-- [Terraform AWS Platform](https://github.com/OpsChugex/terraform-aws-platform), reusable cloud foundation and infrastructure-as-code.
-- [Kubernetes Platform](https://github.com/OpsChugex/kubernetes-platform), platform patterns for workloads, policy and operations.
-- [Secure CI/CD Reference](https://github.com/OpsChugex/secure-cicd-reference), build, test, scan, deploy and verification flow.
-- [Observability Reference](https://github.com/OpsChugex/observability-reference), metrics, logs, alerts and service objectives.
-- [Operational Evidence Demo](https://github.com/OpsChugex/operational-evidence-demo), a guided incident-to-proof workflow.
-- [Live Service Evidence](https://github.com/OpsChugex/live-service-evidence), public checks for OpsChugex-owned service health.
+- **[Terraform AWS Platform](https://github.com/OpsChugex/terraform-aws-platform)** ? `OCX-ARCH-001` ? Reference implementation. Terraform foundation covering networking, load balancing, container registry, Kubernetes, relational data, object storage and observability.
+- **[Kubernetes Platform](https://github.com/OpsChugex/kubernetes-platform)** ? `OCX-PLAT-001` ? Reference implementation. Secure application namespace patterns covering workload controls, scaling, policy, disruption protection and health probes.
+- **[Secure CI/CD Reference](https://github.com/OpsChugex/secure-cicd-reference)** ? `OCX-CICD-001` ? Documented reference. Delivery sequence across testing, security checks, build, deployment, smoke verification and monitoring.
+- **[Observability Reference](https://github.com/OpsChugex/observability-reference)** ? `OCX-OBS-001` ? Demonstration design. Availability, latency, errors, deployments, restarts, logs and infrastructure-event signals.
 
-Each repository states whether it is a reference, demonstration, or verified public-service check.
+### Operations & validation
 
-## Public platform projects
+- **[Operational Evidence Demo](https://github.com/OpsChugex/operational-evidence-demo)** ? `OCX-OPS-001` ? Controlled demonstration. Change, telemetry, diagnosis, human review, remediation and proof-of-fix workflow.
+- **[Live Service Evidence](https://github.com/OpsChugex/live-service-evidence)** ? `OCX-LIVE-001` ? Verified live-service check. Public health validation for the OpsChugex-owned API, including API health, database connectivity and scheduler state.
 
-- [Cloud Platform Infrastructure](https://github.com/OpsChugex/cloud-platform-infrastructure), Terraform infrastructure for multi-environment cloud and Kubernetes delivery.
-- [Cloud Platform Application](https://github.com/OpsChugex/cloud-platform-app), containerized application with automated testing and security scanning.
-- [Cloud Platform GitOps](https://github.com/OpsChugex/cloud-platform-gitops), Argo CD and Kustomize delivery configuration.
-- [Cloud Platform Ansible](https://github.com/OpsChugex/cloud-platform-ansible), Linux and NGINX automation with validation.
-- [Cloud Application GitOps](https://github.com/OpsChugex/cloud-app-gitops), Kubernetes deployment configuration managed by Argo CD.
-- [Jenkins CI Pipeline](https://github.com/OpsChugex/jenkins-ci-pipeline), continuous integration for containerized delivery.
+> Public evidence is scoped carefully. Reference implementations do not claim deployed production outcomes; demonstrations do not claim customer monitoring; live checks are time-bound verification, not uptime guarantees.
 
-## Learn More
+## Engineering principles
 
-Website: https://opschugex.com
+<table><tr><td width="25%" valign="top"><b>Design for operations</b><br><sub>Architecture includes reliability, recovery, observability and operating constraints from the start.</sub></td><td width="25%" valign="top"><b>Automate repeatable work</b><br><sub>Infrastructure, delivery and validation should be reproducible and reviewable.</sub></td><td width="25%" valign="top"><b>Build security into delivery</b><br><sub>Identity, secrets, policy and security checks belong inside the engineering path.</sub></td><td width="25%" valign="top"><b>Prove what is claimed</b><br><sub>Claims connect to artifacts, checks, evidence and explicit limitations.</sub></td></tr></table>
 
-Contact: hello@opschugex.com
+## Technology ecosystem
+
+<p align="center"><img src="https://skillicons.dev/icons?i=aws,azure,kubernetes,terraform,docker,jenkins,githubactions,gitlab,ansible,prometheus,grafana,python&perline=12" alt="OpsChugex technology ecosystem" /></p>
+
+<p align="center"><sub>AWS ? Azure ? Kubernetes ? Terraform ? Docker ? Jenkins ? GitHub Actions ? GitLab CI/CD ? Ansible ? Prometheus ? Grafana ? Python</sub></p>
+
+## Work with OpsChugex
+
+For engineering services, architecture discussions or technology partnerships:
+
+**Website:** [opschugex.com](https://opschugex.com)
+
+**Email:** [hello@opschugex.com](mailto:hello@opschugex.com)
+
+**LinkedIn:** [OpsChugex Technologies Inc.](https://www.linkedin.com/company/opschugex)
