@@ -24,7 +24,7 @@ Our engineering model connects **architecture, automation, delivery, operations 
 
 - **[Terraform AWS Platform](https://github.com/OpsChugex/terraform-aws-platform)** | `OCX-ARCH-001` | Reference implementation. Terraform foundation covering networking, load balancing, container registry, Kubernetes, relational data, object storage and observability.
 - **[Kubernetes Platform](https://github.com/OpsChugex/kubernetes-platform)** | `OCX-PLAT-001` | Reference implementation. Secure application namespace patterns covering workload controls, scaling, policy, disruption protection and health probes.
-- **[Secure CI/CD Reference](https://github.com/OpsChugex/secure-cicd-reference)** | `OCX-CICD-001` ? Documented reference. Delivery sequence across testing, security checks, build, deployment, smoke verification and monitoring.
+- **[Secure CI/CD Reference](https://github.com/OpsChugex/secure-cicd-reference)** | `OCX-CICD-001` | Documented reference. Delivery sequence across testing, security checks, build, deployment, smoke verification and monitoring.
 - **[Observability Reference](https://github.com/OpsChugex/observability-reference)** | `OCX-OBS-001` | Demonstration design. Availability, latency, errors, deployments, restarts, logs and infrastructure-event signals.
 
 ### Operations & validation
