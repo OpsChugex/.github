@@ -22,15 +22,15 @@ Our engineering model connects **architecture, automation, delivery, operations 
 
 ### Architecture & platform references
 
-- **[Terraform AWS Platform](https://github.com/OpsChugex/terraform-aws-platform)** ? `OCX-ARCH-001` ? Reference implementation. Terraform foundation covering networking, load balancing, container registry, Kubernetes, relational data, object storage and observability.
-- **[Kubernetes Platform](https://github.com/OpsChugex/kubernetes-platform)** ? `OCX-PLAT-001` ? Reference implementation. Secure application namespace patterns covering workload controls, scaling, policy, disruption protection and health probes.
-- **[Secure CI/CD Reference](https://github.com/OpsChugex/secure-cicd-reference)** ? `OCX-CICD-001` ? Documented reference. Delivery sequence across testing, security checks, build, deployment, smoke verification and monitoring.
-- **[Observability Reference](https://github.com/OpsChugex/observability-reference)** ? `OCX-OBS-001` ? Demonstration design. Availability, latency, errors, deployments, restarts, logs and infrastructure-event signals.
+- **[Terraform AWS Platform](https://github.com/OpsChugex/terraform-aws-platform)** | `OCX-ARCH-001` | Reference implementation. Terraform foundation covering networking, load balancing, container registry, Kubernetes, relational data, object storage and observability.
+- **[Kubernetes Platform](https://github.com/OpsChugex/kubernetes-platform)** | `OCX-PLAT-001` | Reference implementation. Secure application namespace patterns covering workload controls, scaling, policy, disruption protection and health probes.
+- **[Secure CI/CD Reference](https://github.com/OpsChugex/secure-cicd-reference)** | `OCX-CICD-001` ? Documented reference. Delivery sequence across testing, security checks, build, deployment, smoke verification and monitoring.
+- **[Observability Reference](https://github.com/OpsChugex/observability-reference)** | `OCX-OBS-001` | Demonstration design. Availability, latency, errors, deployments, restarts, logs and infrastructure-event signals.
 
 ### Operations & validation
 
-- **[Operational Evidence Demo](https://github.com/OpsChugex/operational-evidence-demo)** ? `OCX-OPS-001` ? Controlled demonstration. Change, telemetry, diagnosis, human review, remediation and proof-of-fix workflow.
-- **[Live Service Evidence](https://github.com/OpsChugex/live-service-evidence)** ? `OCX-LIVE-001` ? Verified live-service check. Public health validation for the OpsChugex-owned API, including API health, database connectivity and scheduler state.
+- **[Operational Evidence Demo](https://github.com/OpsChugex/operational-evidence-demo)** | `OCX-OPS-001` | Controlled demonstration. Change, telemetry, diagnosis, human review, remediation and proof-of-fix workflow.
+- **[Live Service Evidence](https://github.com/OpsChugex/live-service-evidence)** | `OCX-LIVE-001` | Verified live-service check. Public health validation for the OpsChugex-owned API, including API health, database connectivity and scheduler state.
 
 > Public evidence is scoped carefully. Reference implementations do not claim deployed production outcomes; demonstrations do not claim customer monitoring; live checks are time-bound verification, not uptime guarantees.
 
@@ -42,7 +42,7 @@ Our engineering model connects **architecture, automation, delivery, operations 
 
 <p align="center"><img src="https://skillicons.dev/icons?i=aws,azure,kubernetes,terraform,docker,jenkins,githubactions,gitlab,ansible,prometheus,grafana,python&perline=12" alt="OpsChugex technology ecosystem" /></p>
 
-<p align="center"><sub>AWS ? Azure ? Kubernetes ? Terraform ? Docker ? Jenkins ? GitHub Actions ? GitLab CI/CD ? Ansible ? Prometheus ? Grafana ? Python</sub></p>
+<p align="center"><sub>AWS | Azure | Kubernetes | Terraform | Docker | Jenkins | GitHub Actions | GitLab CI/CD | Ansible | Prometheus | Grafana | Python</sub></p>
 
 ## Work with OpsChugex
 
