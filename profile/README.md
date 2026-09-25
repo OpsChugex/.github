@@ -22,15 +22,15 @@ Our engineering model connects **architecture, automation, delivery, operations 
 
 ### Architecture & platform references
 
-- **[Terraform AWS Platform](https://github.com/OpsChugex/terraform-aws-platform)** | `OCX-ARCH-001` | Reference implementation. Terraform foundation covering networking, load balancing, container registry, Kubernetes, relational data, object storage and observability.
-- **[Kubernetes Platform](https://github.com/OpsChugex/kubernetes-platform)** | `OCX-PLAT-001` | Reference implementation. Secure application namespace patterns covering workload controls, scaling, policy, disruption protection and health probes.
-- **[Secure CI/CD Reference](https://github.com/OpsChugex/secure-cicd-reference)** | `OCX-CICD-001` | Documented reference. Delivery sequence across testing, security checks, build, deployment, smoke verification and monitoring.
-- **[Observability Reference](https://github.com/OpsChugex/observability-reference)** | `OCX-OBS-001` | Demonstration design. Availability, latency, errors, deployments, restarts, logs and infrastructure-event signals.
+- **[Terraform AWS Platform](https://github.com/OpsChugex/terraform-aws-platform)** | `OCX-ARCH-001` | Validated reference implementation. Guarded Terraform for VPC/subnet structure, ECR, CloudWatch logging, evidence storage and application network controls, with mock-provider tests and deployment disabled by default.
+- **[Kubernetes Platform](https://github.com/OpsChugex/kubernetes-platform)** | `OCX-PLAT-001` | Validated reference implementation. Restricted pod security, non-root execution, resource controls, probes, scaling, disruption protection and default-deny networking with explicit application ingress.
+- **[Secure CI/CD Reference](https://github.com/OpsChugex/secure-cicd-reference)** | `OCX-CICD-001` | Executable reference pipeline. Compilation, unit tests, static analysis, dependency audit, container build, Trivy scan and runtime smoke verification, with no deployment credentials.
+- **[Observability Reference](https://github.com/OpsChugex/observability-reference)** | `OCX-OBS-001` | Executable observability reference. Machine-readable SLO policy, Prometheus recording and alert rules, error-budget calculation and automated contract validation.
 
 ### Operations & validation
 
-- **[Operational Evidence Demo](https://github.com/OpsChugex/operational-evidence-demo)** | `OCX-OPS-001` | Controlled demonstration. Change, telemetry, diagnosis, human review, remediation and proof-of-fix workflow.
-- **[Live Service Evidence](https://github.com/OpsChugex/live-service-evidence)** | `OCX-LIVE-001` | Verified live-service check. Public health validation for the OpsChugex-owned API, including API health, database connectivity and scheduler state.
+- **[Operational Evidence Demo](https://github.com/OpsChugex/operational-evidence-demo)** | `OCX-OPS-001` | Self-contained controlled demonstration. Reproducible degraded-state and recovery validation across change, telemetry, diagnosis, remediation and proof of fix.
+- **[Live Service Evidence](https://github.com/OpsChugex/live-service-evidence)** | `OCX-LIVE-001` | Automated verified live-service check. Public API health, database connectivity, scheduler state, observed latency and UTC timestamp are recorded as time-bound evidence.
 
 > Public evidence is scoped carefully. Reference implementations do not claim deployed production outcomes; demonstrations do not claim customer monitoring; live checks are time-bound verification, not uptime guarantees.
 
