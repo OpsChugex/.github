@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <img src="./assets/opschugex-hero.svg" width="100%" alt="OpsChugex Technologies Inc. technology engineering" />
 </p>
 
@@ -15,6 +15,17 @@ OpsChugex Technologies Inc. designs, builds, modernizes and operates technology 
 Our engineering model connects **architecture, automation, delivery, operations and evidence**. Public repositories are intentionally labeled so a reference implementation, controlled demonstration and verified live-service check are not presented as the same thing.
 
 <p align="center"><img src="./assets/engineering-system.svg" width="100%" alt="OpsChugex engineering system from architecture to operations and evidence" /></p>
+
+## Explore OpsChugex engineering
+
+- [Cloud Architecture](https://opschugex.com/cloud-architecture) and [Architecture Center](https://opschugex.com/architecture-center)
+- [AWS Consulting](https://opschugex.com/aws-consulting) and [Azure Consulting](https://opschugex.com/azure-consulting)
+- [Managed DevOps](https://opschugex.com/managed-devops) and [Managed Kubernetes](https://opschugex.com/managed-kubernetes)
+- [SRE & Reliability](https://opschugex.com/sre) and [Observability](https://opschugex.com/service-observability)
+- [API Engineering](https://opschugex.com/api-engineering) and [Integration Services](https://opschugex.com/integration-services)
+- [Engineering Proof](https://opschugex.com/engineering-proof) and [Trust Center](https://opschugex.com/trust)
+
+These pages explain how OpsChugex approaches architecture, implementation, production operations and verifiable engineering evidence.
 
 ## Public engineering evidence
 
